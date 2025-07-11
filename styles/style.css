@@ -59,7 +59,7 @@ nav{
 /* banner styles */
 .banner{
         
-     margin: 267.5px 309px;
+     margin: 107.5px 309px;
     
         
 
@@ -118,10 +118,10 @@ nav{
     background-color: #4d47ff1d;
     border-radius: 24px;
     margin-top: 116px;
-    max-height: 306px;
+    height: 306px;
 }
 .user-heading{
-    padding-top: 50px;
+   padding-top: 50px;
     font-weight: bold;
     font-size: 38px;
     color: #252432;
@@ -137,10 +137,15 @@ nav{
     font-weight: bold;
     font-size: 80px;
     color: #4E47FF;
+    margin: 0;
 }
 .user-description{
     font-weight: 400px;
     font-size: 20px;
     color: #0000007c;
     
+}
+.user-item{
+    display: flex;
+    flex-direction: column;
 }
