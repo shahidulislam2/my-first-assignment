@@ -218,6 +218,9 @@ nav{
     gap: 110px;
     align-items: center;
 }
+.content-btn{
+    width: 100%;
+}
 main input[type="text"],main input[type="email"],main textarea{
     /* height: 70px; */
     border-radius: 10px;
@@ -236,14 +239,15 @@ main input[type="text"],main input[type="email"],main textarea{
     align-items: center;
     justify-content: center;
     max-width: 531px;
-    margin: 0 auto;
+    margin: 20px auto;
+    padding: 30px;
 }
 .footer-logo{
     color:rgba(78, 71, 255, 1);
     font-weight: 900px;
     font-size: 100px;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 .footer-home{
     display: flex;
