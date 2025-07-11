@@ -149,3 +149,64 @@ nav{
     display: flex;
     flex-direction: column;
 }
+/* about user says */
+.user-say-container{
+    display: flex;
+    gap: 24px;
+   
+    
+    /* background-color: #F2EDED; */
+}
+.about-title{
+    font-weight: bold;
+    font-size: 42px;
+    justify-content: center;
+    text-align: center;
+
+}
+.about-user{
+    align-items: center;
+    justify-content: center;
+    margin: 140px;
+  
+}
+.date{
+    align-items: center;
+    justify-content: center;
+}
+.about-description{
+    color: #1E1E1E;
+    
+}
+.user-say{
+    padding: 20px;
+    box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.058);
+    border-radius: 14px;
+    
+}
+.user-name{
+    justify-content: center;
+}
+    /* main-column */
+.form-title{
+    font-weight: bold;
+    font-size: 97px;
+}
+.form{
+    display: flex;
+    gap: 110px;
+    align-items: center;
+}
+main input[type="text"],main input[type="email"],main textarea{
+    /* height: 70px; */
+    border-radius: 10px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+    /* width: 497px; */
+    font-size: 20px;
+    padding: 20px 379px 20px 32px;
+    margin-bottom: 30px;
+   
+    
+}
