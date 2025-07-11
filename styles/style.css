@@ -98,6 +98,8 @@ nav{
     display: flex;
     gap: 220px;
     margin-top: 84px;
+    align-items: center;
+    justify-content: center;
    
     
 }
