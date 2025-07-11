@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
 .inter-normal{
@@ -53,7 +57,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 150px;
+    margin: 10px 150px;
     gap: 909px;
     
 }
@@ -64,7 +68,7 @@ nav{
 /* banner styles */
 .banner{
         
-     margin: 107.5px 309px;
+     margin: 207.5px 309px;
     
         
 
@@ -178,6 +182,10 @@ nav{
 .date{
     align-items: center;
     justify-content: center;
+   color: rgba(179, 179, 179, 1);
+}
+.revi-name{
+    color: rgba(117, 117, 117, 1);
 }
 .about-description{
     color: #1E1E1E;
@@ -189,8 +197,14 @@ nav{
     border-radius: 14px;
     
 }
+.user-img{
+    border-radius: 50%;
+}
 .user-name{
-    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
 }
     /* main-column */
 .form-title{
