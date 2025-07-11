@@ -18,10 +18,15 @@
 .text-primary{
     color: #4E47FF;
 }
+.btn-primary:hover{
+    background-color: grey;
+    cursor: pointer;
+}
 /* main styles */
 main{
     max-width: 1140px;
     margin: 0 auto;
+    background-color: rgba(8, 224, 224, 0.006);
 }
 /* header */
 .header{
@@ -209,4 +214,30 @@ main input[type="text"],main input[type="email"],main textarea{
     margin-bottom: 30px;
    
     
+}
+/* footer styles */
+.footer{
+    align-items: center;
+    justify-content: center;
+    max-width: 531px;
+    margin: 0 auto;
+}
+.footer-logo{
+    color:rgba(78, 71, 255, 1);
+    font-weight: 900px;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.footer-home{
+    display: flex;
+}
+.footer-description{
+    color: rgba(137, 135, 161, 1);
+}
+.footer-items{
+    display: flex;
+    color: rgba(137, 135, 161, 1);
+    justify-content: space-around;
+    gap: 10px;
 }
